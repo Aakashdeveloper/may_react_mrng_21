@@ -33,3 +33,76 @@ single page application using component base structure
 open source
 
 npm > node package manager
+
+///////////////////
+JSON > JavaScript Object Notation
+[
+    {
+        name:"Keev",
+        class:"UI"
+    },
+    {
+        name:"Rahul",
+        class:"Node"
+    }
+]
+
+/////////////////
+package.json
+
+> Entry Point to application
+> Meta Data(name,description,version)
+> packages
+> script(start,test,build)
+
+///////////////
+How to generate package.json
+//////////////////
+**NodeJs must be install
+> go inside the folder using cmd 
+> type npm init 
+> answer all questions
+> type "yes"
+
+///////////////
+Step to install packages
+//////////////////
+**NodeJs must be install
+> go inside the folder using cmd 
+> npm i packagename
+
+npm uninstall packagename
+
+
+///////////////
+Step to generate React app
+////////////////// 
+#window
+///One Time Step////
+> open cmd as admin
+> npm i -g create-react-app 
+
+///Next Every Time You want to generate app ////
+> open cmd 
+> go inside folder where you want app 
+> create-react-app  appname
+
+#mac/linux
+///One Time Step////
+> open terminal
+> sudo npm i -g create-react-app 
+
+///Next Every Time You want to generate app ////
+> open cmd 
+> go inside folder where you want app 
+> create-react-app  appname
+
+///////////////
+Step to run React app
+////////////////// 
+> open cmd
+> go inside your app 
+> npm start 
+> http://localhost:3000/
+
+> npx create-react-app
