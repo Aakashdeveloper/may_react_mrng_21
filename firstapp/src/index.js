@@ -1,17 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Header from './Header';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+const App = () => {
+    return (
+        <div>
+            <Header/>
+            <h1>My First React App</h1>
+            <h2>Class React</h2>
+        </div>
+        
+    ) 
+}
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// we are binding component in html file
+ReactDOM.render(<App/>,document.getElementById('root'));
+
+
+
+
+
+//es5
+// var React = require('react')
+/*
+function App(){
+    return (
+        <h1>My React App</h1>
+    )
+}*/

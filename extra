@@ -106,3 +106,8 @@ Step to run React app
 > http://localhost:3000/
 
 > npx create-react-app
+
+
+"react": this is main lib 
+"react-dom":  this help to display content 
+"react-scripts": this help to run the app
