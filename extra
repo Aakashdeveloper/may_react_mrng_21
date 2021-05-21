@@ -111,3 +111,38 @@ Step to run React app
 "react": this is main lib 
 "react-dom":  this help to display content 
 "react-scripts": this help to run the app
+
+
+function add(a,b){
+    return a,b
+}
+
+add(1,2)
+
+parent > child   >>>> we use props to pass data 
+child > parent
+
+//////////////
+class component
+    > Logical Component
+    > use to call api, manage logic and display 
+    > it can maintain state
+
+functional component
+    > Dumb component
+    > we use for display purpose
+    > it cannot maintain state
+
+
+Hooks
+
+///////////////////////
+state
+    > local variable
+    > any data interaction will happen through state
+    > mutable( we can change the value in state)
+
+props
+    > use to transport state/data
+    > immutable(we cannot change the date of props )
+    > it can only transfer data btw the nested component
