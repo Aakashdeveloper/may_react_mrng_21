@@ -146,3 +146,8 @@ props
     > use to transport state/data
     > immutable(we cannot change the date of props )
     > it can only transfer data btw the nested component
+
+
+map
+filter
+indexof 
