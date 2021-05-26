@@ -120,7 +120,7 @@ function add(a,b){
 add(1,2)
 
 parent > child   >>>> we use props to pass data 
-child > parent
+child > parent   >>>> we use props with function
 
 //////////////
 class component
@@ -151,3 +151,37 @@ props
 map
 filter
 indexof 
+
+var a = [32,3,4,353,646]
+a.map((data) => {console.log(data)})
+
+
+function add(a,b){
+    return a+b
+}
+
+
+add(1,2)
+
+var a = [4,23,62,15,10,21]
+
+a.filter((data) => {return data>20})
+
+
+var a = [4,23,62,15,10,21]
+
+a.indexOf(4)
+0
+a.indexOf(15)
+3
+a.indexOf(16)
+-1
+a.indexOf(18)
+-1
+
+var a = [0,2,4,6]
+a.filter((data) => return data*2)
+[0,4,8,12]
+[2,4,6]
+
+npm i react-router-dom
