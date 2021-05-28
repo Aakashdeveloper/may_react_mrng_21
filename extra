@@ -186,6 +186,13 @@ a.filter((data) => return data*2)
 
 npm i react-router-dom
 
+Params (/1) (compulsory)
+QueryParams (?name=keev) (optional)
+
+Default Props (under routing)
+match > for params
+history > for redirection
+location > for query params
 
 (get) hotels>         https://developerfunnel.herokuapp.com/hotels
 (get) hotelwrtcity >  https://developerfunnel.herokuapp.com/hotels?city=6
@@ -195,8 +202,9 @@ npm i react-router-dom
 (get) roomfilter >    https://developerfunnel.herokuapp.com/hotellist/4?roomtype=1
 
 (get) costfilter >    https://developerfunnel.herokuapp.com/hotellist/1?hcost=1000&lcost=500
+
 (get) cityname >      https://developerfunnel.herokuapp.com/location
 (get) rooms >         https://developerfunnel.herokuapp.com/rooms
-(get) triptype>       https://developerfunnel.herokuapp.com/booking
+(get) quickSearch>    https://developerfunnel.herokuapp.com/booking
 (get) bookingdetails> https://developerfunnel.herokuapp.com/allBooking
 (post)placebooking >  https://developerfunnel.herokuapp.com/placeBook
