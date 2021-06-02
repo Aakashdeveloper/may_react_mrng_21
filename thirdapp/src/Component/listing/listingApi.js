@@ -20,7 +20,7 @@ class Listing extends Component{
                     Filter
                 </div>
                 <div className="col-md-10">
-                    <ListingDisplay/>
+                    <ListingDisplay listdata={this.state.hotellist}/>
                 </div>
             </div>
         )
@@ -30,6 +30,7 @@ class Listing extends Component{
         let tripId = this.props.match.params.id;
         axios.get(`${url}/${tripId}`)
         .then((res) => {this.setState({hotellist:res.data})})
+        //.catch((err))
     }
 }
 
