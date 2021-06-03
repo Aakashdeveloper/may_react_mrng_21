@@ -7,6 +7,7 @@ Npm
 React = 3
 Mock API
 json-server
+/////////////////////////////
 React-GraphQL-1
 React-JWT(Login Logout)-2
 Depolyment
@@ -208,3 +209,11 @@ location > for query params
 (get) quickSearch>    https://developerfunnel.herokuapp.com/booking
 (get) bookingdetails> https://developerfunnel.herokuapp.com/allBooking
 (post)placebooking >  https://developerfunnel.herokuapp.com/placeBook
+
+
+//////
+step to create dummy api 
+//////////
+npm i -g json-server 
+
+json-server --watch user.json --port 8900

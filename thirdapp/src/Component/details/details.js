@@ -53,6 +53,10 @@ class Details extends Component{
                             </TabPanel>
                            
                         </Tabs>
+                        <Link to="/" className="btn btn-danger">Back</Link> &nbsp;
+                        <Link to={`/booking/${details.name}`} className="btn btn-success">
+                            Proceed
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -64,6 +68,7 @@ class Details extends Component{
     let hotelId = this.props.match.params.id;
     let response = await axios.get(`${url}/${hotelId}`)
     this.setState({details:response.data[0]})
+    sessionStorage.setItem('cost',response.data[0].cost)
     }
 
 }
