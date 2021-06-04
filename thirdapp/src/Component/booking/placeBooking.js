@@ -21,7 +21,7 @@ class PlaceOrder extends Component{
     }
 
     handleSubmit = () => {
-        console.log(this.state);
+        // console.log(this.state);
         fetch(url,{
             method:'POST',
             headers: {
