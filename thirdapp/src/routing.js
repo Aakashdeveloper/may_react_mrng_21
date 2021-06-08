@@ -10,7 +10,7 @@ import BookingComponent from './Component/booking/bookingApi';
 
 const Routing = () => {
     return(
-        <BrowserRouter>
+        <BrowserRouter forceRefresh={true}>
             <Header/>
             <Route exact path="/" component={Home}/>
             <Route path="/list/:id" component={ListingApi}/>
