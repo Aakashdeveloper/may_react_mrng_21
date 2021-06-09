@@ -8,16 +8,17 @@ React = 3
 Mock API
 json-server
 React-JWT(Login Logout)-2
-/////////////////////////////
-React-GraphQL-1
 Depolyment
 -> MERN
 -> Docker
 -> heroku
 -> Nginx
 Github
+/////////////////////////////
+React-GraphQL-1
 React_hooks -1
 Basic React Native=1
+
 React-Redux =1
 React-Redux =1
 Testing Jest Enzime
@@ -243,3 +244,10 @@ https://github.com/Aakashdeveloper/march-react-mrng/tree/master/thirdapp
 
 
 https://www.youtube.com/c/DeveloperFunnel/videos
+
+
+/////build////
+> npm run build
+
+docker build . -t appname
+docker run -p 3000:8900 appname
