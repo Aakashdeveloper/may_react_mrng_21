@@ -14,9 +14,9 @@ Depolyment
 -> heroku
 -> Nginx
 Github
-/////////////////////////////
 React-GraphQL-1
 React_hooks -1
+/////////////////////////////
 Basic React Native=1
 
 React-Redux =1
@@ -251,3 +251,12 @@ https://www.youtube.com/c/DeveloperFunnel/videos
 
 docker build . -t appname
 docker run -p 3000:8900 appname
+
+/////////
+react native 
+> npm i -g create-react-native-app 
+
+> create-react-native-app  appname
+/////////////////////
+
+npm i apollo-boost apollo-graphql graphql graphql-tag react-apollo
